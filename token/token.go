@@ -16,9 +16,9 @@ const (
 	// MinValidity token validity token duration.
 	MinValidity = 10 * time.Second
 	// MaxValidity token validity token duration.
-	MaxValidity = 1 * time.Hour
+	MaxValidity = 87600 * time.Hour
 	// DefaultValidity token validity duration.
-	DefaultValidity = 5 * time.Minute
+	DefaultValidity = 87600 * time.Hour
 	// MaxValidityDelay allowable delay between Now and beginning of token validity period.
 	MaxValidityDelay = 30 * time.Minute
 )
